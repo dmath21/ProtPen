@@ -199,3 +199,41 @@ def enrich_tsv(input_tsv, output_tsv, pdb_to_info):
             row["UniProt_InterPro"] = "||".join(interpros)
             row["UniProt_SUPFAM"] = "||".join(supfams)
             writer.writerow(row)
+
+from itertools import islice
+
+def chunked_iterable(iterable, size):
+    """
+    Yield successive chunks from an iterable.
+    """
+    it = iter(iterable)
+    return iter(lambda: list(islice(it, size)), [])
+
+def map_pdb_to_uniprot_batched(pdb_ids, batch_size=20):
+    """
+    Handles large ID mapping jobs by batching them into chunks of size `batch_size`.
+
+    Args:
+        pdb_ids (list): List of PDB IDs to map.
+        batch_size (int): Maximum number of IDs per batch.
+
+    Returns:
+        dict: Mapping from PDB ID to UniProt ID(s).
+    """
+    pdb_to_uniprot = {}
+    for batch in chunked_iterable(pdb_ids, batch_size):
+        job_id = submit_id_mapping(batch)
+        if not job_id:
+            print(f"Failed to submit batch: {batch}")
+            continue
+        if poll_job(job_id):
+            results = get_mapping_results(job_id)
+            for result in results:
+                from_id = result["from"]
+                to_id = result["to"]
+                if from_id not in pdb_to_uniprot:
+                    pdb_to_uniprot[from_id] = []
+                pdb_to_uniprot[from_id].append(to_id)
+        else:
+            print(f"Polling failed for job {job_id}")
+    return pdb_to_uniprot

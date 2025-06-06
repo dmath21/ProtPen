@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-# protpen/enrich_tsvs.py
+# protpen/cli_enrich.py
 
 # usage: python protpen/cli_enrich.py -i input.tsv -o enriched_output.tsv
 import argparse
 from protpen import enrich_utils
+import csv
 
 def run_enrichment_pipeline(input_tsv, output_tsv):
     # Step 1: Collect unique PDB IDs
     unique_pdb_ids = set()
     with open(input_tsv, newline="") as infile:
-        reader = enrich_utils.csv.DictReader(infile, delimiter="\t")
+        reader = csv.DictReader(infile, delimiter="\t")
         for row in reader:
             target_field = row.get("target", "")
             for pdb_id in enrich_utils.extract_pdb_ids(target_field):
@@ -21,32 +22,12 @@ def run_enrichment_pipeline(input_tsv, output_tsv):
         print("No PDB IDs found in the target column. Exiting.")
         return
 
-    # Step 2: Submit mapping job
-    print("Submitting UniProt mapping job...")
-    job_id = enrich_utils.submit_id_mapping(unique_pdb_ids)
-    if not job_id:
-        print("Error: Could not submit mapping job.")
-        return
-    print("Job ID:", job_id)
+    # Step 2: Map PDB → UniProt in batches
+    print("Submitting batched UniProt mapping jobs...")
+    pdb_to_uniprot = enrich_utils.map_pdb_to_uniprot_batched(unique_pdb_ids, batch_size=20)
+    print(f"Retrieved UniProt mappings for {len(pdb_to_uniprot)} PDB IDs.")
 
-    # Step 3: Wait for completion
-    print("Waiting for mapping job to finish...")
-    if not enrich_utils.poll_job(job_id):
-        print("Mapping job did not finish successfully.")
-        return
-
-    # Step 4: Retrieve results
-    mapping_results = enrich_utils.get_mapping_results(job_id)
-    print(f"Retrieved {len(mapping_results)} mapping results.")
-
-    pdb_to_uniprot = {}
-    for entry in mapping_results:
-        pdb = entry.get("from")
-        uniprot = entry.get("to")
-        if pdb and uniprot:
-            pdb_to_uniprot.setdefault(pdb, []).append(uniprot)
-
-    # Step 5: Gather UniProt info for each PDB ID
+    # Step 3: Gather UniProt info for each PDB ID
     uniprot_info_cache = {}
     pdb_to_info = {}
     for pdb_id, uniprot_ids in pdb_to_uniprot.items():
@@ -66,12 +47,12 @@ def run_enrichment_pipeline(input_tsv, output_tsv):
             "supfam": ", ".join(supfam_list) if supfam_list else "n/a"
         }
 
-    # Mark unmapped PDBs as n/a
+    # Step 4: Mark unmapped PDBs as n/a
     for pdb_id in unique_pdb_ids:
         if pdb_id not in pdb_to_info:
             pdb_to_info[pdb_id] = {"description": "n/a", "interpro": "n/a", "supfam": "n/a"}
 
-    # Step 6: Enrich the TSV
+    # Step 5: Enrich the TSV
     print("Writing enriched TSV to", output_tsv)
     enrich_utils.enrich_tsv(input_tsv, output_tsv, pdb_to_info)
     print("Enrichment complete.")
@@ -88,3 +69,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 
