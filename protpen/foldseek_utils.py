@@ -7,7 +7,12 @@ def extract_protein_ids(fasta_file):
     with open(fasta_file, "r") as f:
         for line in f:
             if line.startswith(">"):
-                protein_ids.add(line.strip().split()[0][1:])
+                header = line.strip().split()[0][1:]  # Remove '>'
+                if "|" in header:
+                    uniprot_id = header.split("|")[1]
+                else:
+                    uniprot_id = header  # Fallback: whole header
+                protein_ids.add(uniprot_id)
     return protein_ids
 
 
