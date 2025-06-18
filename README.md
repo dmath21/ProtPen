@@ -22,7 +22,7 @@ Ensure the following dependencies are installed:
 - EggNOG-mapper v2
 - Foldseek
 - psutil v6.0+
-- Required Python libraries: `pandas`, `requests`, `biopython`
+- Required Python libraries: `pandas`, `requests`, `biopython`, `pytest`
 
 ### Clone the Repository
 ```sh
