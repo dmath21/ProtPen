@@ -1,5 +1,3 @@
-# protpen/merge_utils.py
-
 import csv
 
 def read_tsv(filepath):
@@ -20,16 +18,22 @@ def merge_data(eggnog_data, eggnog_headers, foldseek_data, foldseek_headers):
     eggnog_mapping = create_header_mapping(eggnog_headers, "eggnog")
     foldseek_mapping = create_header_mapping(foldseek_headers, "foldseek")
 
-    filtered_eggnog_data = {q: eggnog_data[q] for q in foldseek_data if q in eggnog_data}
+    # Full outer join: union of all query IDs
+    all_queries = set(eggnog_data) | set(foldseek_data)
 
-    merged_headers = ['query'] + [eggnog_mapping[h] for h in eggnog_headers if h != 'query'] + \
-                     [foldseek_mapping[h] for h in foldseek_headers if h != 'query']
+    # Construct the merged header
+    merged_headers = ['query']
+    if eggnog_headers:
+        merged_headers += [eggnog_mapping[h] for h in eggnog_headers if h != 'query']
+    if foldseek_headers:
+        merged_headers += [foldseek_mapping[h] for h in foldseek_headers if h != 'query']
 
+    # Merge rows
     merged_rows = []
-    for query in sorted(foldseek_data):
+    for query in sorted(all_queries):
         merged_row = {'query': query}
-        egg_row = filtered_eggnog_data.get(query, {})
-        fs_row = foldseek_data[query]
+        egg_row = eggnog_data.get(query, {})
+        fs_row = foldseek_data.get(query, {})
 
         for h in eggnog_headers:
             if h != 'query':

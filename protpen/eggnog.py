@@ -9,7 +9,7 @@ def run_eggnog_mapper(input_fasta, output_dir, output_prefix, emapper_path="/sha
         os.makedirs(output_dir)
 
     output_path = os.path.join(output_dir, output_prefix)
-    command = f"{emapper_path} -i {input_fasta} -m diamond -m mmseqs -o {output_path} --excel"
+    command = f"{emapper_path} -i {input_fasta} -m diamond -m mmseqs -o {output_path}"
     subprocess.run(command, shell=True, check=True, env=os.environ)
 
 

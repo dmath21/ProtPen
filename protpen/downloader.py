@@ -3,6 +3,8 @@ import requests
 import os
 import json
 import re
+import logging
+logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 
 
 def extract_protein_ids_from_fasta(file_in):
@@ -44,12 +46,15 @@ def download_alphafold_pdb(alphafold_id, output_folder):
 
     for version in range(1, 101):
         url = base_url + str(version) + ".pdb"
-        if requests.head(url).status_code == 200:
+        response = requests.head(url)
+        if response.status_code == 200:
+            logging.info(f"Found structure for {alphafold_id} (v{version}). Downloading...")
             response = requests.get(url)
             os.makedirs(output_folder, exist_ok=True)
             with open(pdb_path, "wb") as f:
                 f.write(response.content)
             return pdb_path
+    logging.warning(f"No structure found for {alphafold_id} in versions 1-100.")
     return None
 
 
@@ -61,10 +66,14 @@ def download_structures_from_fasta(file_in, output_folder="pdb_files"):
     downloaded = {}
 
     for pid in protein_ids:
+        logging.info(f"Processing {pid}...")
         json_path = os.path.join(output_folder, f"{pid}.json")
+
         if not os.path.exists(json_path):
+            logging.info(f"Downloading UniProt JSON for {pid}")
             success = download_uniprot_json(pid, json_path)
             if not success:
+                logging.error(f"Failed to download UniProt JSON for {pid}")
                 downloaded[pid] = "uniprot_json_failed"
                 continue
 
@@ -72,10 +81,23 @@ def download_structures_from_fasta(file_in, output_folder="pdb_files"):
             data = json.load(f)
 
         af_id = extract_alphafold_id(data)
+        pdb = None
+
         if af_id:
+            logging.info(f"AlphaFold ID for {pid} is {af_id}")
             pdb = download_alphafold_pdb(af_id, output_folder)
-            downloaded[pid] = pdb if pdb else "pdb_failed"
         else:
-            downloaded[pid] = "no_alphafold_id"
+            logging.warning(f"No AlphaFold ID found in JSON for {pid}")
+
+        if not pdb:
+            logging.info(f"Attempting fallback: using UniProt ID {pid} to download structure")
+            pdb = download_alphafold_pdb(pid, output_folder)
+
+        if pdb:
+            logging.info(f"Downloaded structure for {pid}")
+            downloaded[pid] = pdb
+        else:
+            logging.error(f"Failed to download structure for {pid}")
+            downloaded[pid] = "pdb_failed"
 
     return downloaded
