@@ -1,0 +1,427 @@
+{
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "primaryAccession": "Q9HZG6",
+  "uniProtkbId": "Q9HZG6_PSEAE",
+  "entryAudit": {
+    "firstPublicDate": "2001-03-01",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2001-03-01",
+    "entryVersion": 91,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 1.0,
+  "organism": {
+    "scientificName": "Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)",
+    "taxonId": 208964,
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "EMBL",
+        "id": "AAG06430.1"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "Proteomes",
+        "id": "UP000002438"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Pseudomonadota",
+      "Gammaproteobacteria",
+      "Pseudomonadales",
+      "Pseudomonadaceae",
+      "Pseudomonas"
+    ]
+  },
+  "proteinExistence": "4: Predicted",
+  "proteinDescription": {
+    "submissionNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAG06430.1"
+            }
+          ],
+          "value": "Uncharacterized protein"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAG06430.1"
+            }
+          ],
+          "value": "PA3042"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 57,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 78,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "Phobius"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "Phobius"
+        }
+      ],
+      "id": "KW-0472",
+      "category": "Cellular component",
+      "name": "Membrane"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ],
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "Phobius"
+        }
+      ],
+      "id": "KW-0812",
+      "category": "Domain",
+      "name": "Transmembrane"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "Phobius"
+        }
+      ],
+      "id": "KW-1133",
+      "category": "Domain",
+      "name": "Transmembrane helix"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "10984043",
+        "citationType": "journal article",
+        "authors": [
+          "Stover C.K.",
+          "Pham X.Q.",
+          "Erwin A.L.",
+          "Mizoguchi S.D.",
+          "Warrener P.",
+          "Hickey M.J.",
+          "Brinkman F.S.",
+          "Hufnagle W.O.",
+          "Kowalik D.J.",
+          "Lagrou M.",
+          "Garber R.L.",
+          "Goltry L.",
+          "Tolentino E.",
+          "Westbrock-Wadman S.",
+          "Yuan Y.",
+          "Brody L.L.",
+          "Coulter S.N.",
+          "Folger K.R.",
+          "Kas A.",
+          "Larbig K.",
+          "Lim R.",
+          "Smith K.",
+          "Spencer D.",
+          "Wong G.K.",
+          "Wu Z.",
+          "Paulsen I.T.",
+          "Reizer J.",
+          "Saier M.H.",
+          "Hancock R.E.",
+          "Lory S.",
+          "Olson M.V."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10984043"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/35023079"
+          }
+        ],
+        "title": "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic pathogen.",
+        "publicationDate": "2000",
+        "journal": "Nature",
+        "firstPage": "959",
+        "lastPage": "964",
+        "volume": "406"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000002438"
+            }
+          ],
+          "value": "ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1",
+          "type": "STRAIN"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAG06430.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AE004091",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAG06430.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "C83265",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "C83265"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_251732.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NC_002516.2"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_003103249.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NZ_QZGE01000009.1"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q9HZG6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "208964.PA3042",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "208964-PA3042",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "882875",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "882875",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "pae:PA3042",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|208964.12.peg.3192",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PseudoCAP",
+      "id": "PA3042",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_168987_0_0_6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q9HZG6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "PAER208964:G1FZ6-3095-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002438",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016020",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MSQLPVNATGLSRRELRKAVIRLRLEMQRQQLRRESQLLVQPFRQAQGLGHNLSQQLFGGGNAALWGAGGAALLGVLLGKGGRWQRLLRLGVALAPLLLGLRKQKGR",
+    "length": 107,
+    "molWeight": 11740,
+    "crc64": "3A132AFD1AAC7D84",
+    "md5": "0D451FA6249F009B3975416D27274664"
+  },
+  "extraAttributes": {
+    "countByFeatureType": {
+      "Transmembrane": 1
+    },
+    "uniParcId": "UPI00000C58E3"
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "annotationScore": 1.0,
+  "entryAudit": {
+    "entryVersion": 98,
+    "firstPublicDate": "2006-07-11",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2006-07-11",
+    "sequenceVersion": 1
+  },
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "extraAttributes": {
+    "countByFeatureType": {
+      "Domain": 2
+    },
+    "uniParcId": "UPI0000D84C9B"
+  },
+  "features": [
+    {
+      "description": "TssC1 N-terminal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "id": "PF05943",
+          "source": "Pfam"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 367
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 68
+        }
+      },
+      "type": "Domain"
+    },
+    {
+      "description": "TssC1 C-terminal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "id": "PF18945",
+          "source": "Pfam"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 491
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 381
+        }
+      },
+      "type": "Domain"
+    }
+  ],
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ABF92790.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "MXAN_4808"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5URW",
+          "source": "PDB"
+        },
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5URX",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0002",
+      "name": "3D-structure"
+    },
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000002402",
+          "source": "Proteomes"
+        }
+      ],
+      "id": "KW-1185",
+      "name": "Reference proteome"
+    }
+  ],
+  "organism": {
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "ABF92790.1",
+        "source": "EMBL"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "UP000002402",
+        "source": "Proteomes"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Myxococcota",
+      "Myxococcia",
+      "Myxococcales",
+      "Cystobacterineae",
+      "Myxococcaceae",
+      "Myxococcus"
+    ],
+    "scientificName": "Myxococcus xanthus (strain DK1622)",
+    "taxonId": 246197
+  },
+  "primaryAccession": "Q1D304",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0008006",
+            "id": "ProtNLM",
+            "source": "Google"
+          }
+        ],
+        "value": "Type VI secretion protein"
+      }
+    }
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "references": [
+    {
+      "citation": {
+        "authors": [
+          "Goldman B.S.",
+          "Nierman W.C.",
+          "Kaiser D.",
+          "Slater S.C.",
+          "Durkin A.S.",
+          "Eisen J.A.",
+          "Ronning C.M.",
+          "Barbazuk W.B.",
+          "Blanchard M.",
+          "Field C.",
+          "Halling C.",
+          "Hinkle G.",
+          "Iartchuk O.",
+          "Kim H.S.",
+          "Mackenzie C.",
+          "Madupu R.",
+          "Miller N.",
+          "Shvartsbeyn A.",
+          "Sullivan S.A.",
+          "Vaudin M.",
+          "Wiegand R.",
+          "Kaplan H.B."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17015832"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.0607335103"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "15200",
+        "id": "17015832",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "lastPage": "15205",
+        "publicationDate": "2006",
+        "title": "Evolution of sensory complexity recorded in a myxobacterial genome.",
+        "volume": "103"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "ABF92790.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000002402",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000002402",
+              "source": "Proteomes"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "DK1622"
+        }
+      ],
+      "referenceNumber": 1,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Chang Y.W.",
+          "Rettberg L.A.",
+          "Ortega D.R.",
+          "Jensen G.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "28487352"
+          },
+          {
+            "database": "DOI",
+            "id": "10.15252/embr.201744072"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "1090",
+        "id": "28487352",
+        "journal": "EMBO Rep.",
+        "lastPage": "1099",
+        "publicationDate": "2017",
+        "title": "<i>In vivo</i> structures of an intact type VI secretion system revealed by electron cryotomography.",
+        "volume": "18"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5URW",
+          "source": "PDB"
+        },
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5URX",
+          "source": "PDB"
+        }
+      ],
+      "referenceNumber": 2,
+      "referencePositions": [
+        "STRUCTURE BY ELECTRON MICROSCOPY (24.00 ANGSTROMS)"
+      ]
+    }
+  ],
+  "sequence": {
+    "crc64": "10BFD17FDFF1B5EE",
+    "length": 494,
+    "md5": "CD9DEFB9DC382929979D61C8718CFAD1",
+    "molWeight": 56115,
+    "value": "MANETQTQKSTGVANDASLSLLDEILSEAKLKPKDEGYDVAKRGVQAFITEMLAPNRSEERVDKALVDAMIAEIDKRLSSQVNEILHAKEFQKLESSWRSLKFMVDRTDFRENTRVEMLNASKEDLQKDFEDAPEVTKSGLYKLVYSNEYGVFGGKPYGIISANYDFNVGPQDMELLRKCASVAAMAHAPFIGNAAPEVFGEESFLKLPDLKDLKSLFEGPQYARWHSFRESEDARYVGLALPRFLLRLPYGEKTVPVKAFNFTEDVVGHHERYLWGHASVALTSRVADSFAKFRWSPNIIGPQSGGAVENLPLHQYEAMGEIQTKIPTEVMLTERREFELSEEGFIGLVFRKDSDNAAFFSANSTQKPRFFGNTPEGKAAETNYRLGTQLPYMFIMTRLAHYIKVLQREQIGSWKEKSDLERELNHWLSQYISDMDDPAPAVRSRRPLRAARVVVEDVEGQPGWYRCSLQVRPHFKYMGASFTLSLVGKLDKE"
+  },
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "CP000113",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ABF92790.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_011554794.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NC_008095.1"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5URW",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "24.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "1B/1D/1F/1H/1J/1L/2B/2D/2F/2H/2J/2L/3B/3D/3F/3H/3J/3L=1-494"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5URX",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "28.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "1B/1D/1F/1H/1J/1L/2B/2D/2F/2H/2J/2L/3B/3D/3F/3H/3J/3L=1-494"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5URW",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5URX",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q1D304",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-8601",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-8602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q1D304",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "246197.MXAN_4808",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblBacteria",
+      "id": "ABF92790",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ABF92790"
+        },
+        {
+          "key": "GeneId",
+          "value": "MXAN_4808"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "41362107",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "mxa:MXAN_4808",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "COG3517",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Bacteria"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_018386_1_0_7",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "9764000at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002402",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR010269",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_TssC-like"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR044032",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TssC1_C"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR044031",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TssC1_N"
+        }
+      ]
+    },
+    {
+      "database": "NCBIfam",
+      "id": "TIGR03355",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "VI_chp_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR35565",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOPLASMIC PROTEIN-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR35565:SF1",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TYPE VI SECRETION SYSTEM CONTRACTILE SHEATH LARGE SUBUNIT"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF05943",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "VipB"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF18945",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "VipB_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "uniProtkbId": "Q1D304_MYXXD"
+}

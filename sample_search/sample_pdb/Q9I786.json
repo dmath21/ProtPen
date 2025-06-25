@@ -1,0 +1,482 @@
+{
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "primaryAccession": "Q9I786",
+  "uniProtkbId": "Q9I786_PSEAE",
+  "entryAudit": {
+    "firstPublicDate": "2001-03-01",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2001-03-01",
+    "entryVersion": 96,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 1.0,
+  "organism": {
+    "scientificName": "Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)",
+    "taxonId": 208964,
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "EMBL",
+        "id": "AAG03436.1"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "Proteomes",
+        "id": "UP000002438"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Pseudomonadota",
+      "Gammaproteobacteria",
+      "Pseudomonadales",
+      "Pseudomonadaceae",
+      "Pseudomonas"
+    ]
+  },
+  "proteinExistence": "4: Predicted",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0008006",
+            "source": "Google",
+            "id": "ProtNLM"
+          }
+        ],
+        "value": "DUF4810 domain-containing protein"
+      }
+    }
+  },
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAG03436.1"
+            }
+          ],
+          "value": "PA0046"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "SignalP"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 117,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "DUF4810 domain-containing protein",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "SignalP"
+        }
+      ],
+      "featureId": "PRO_5004327169"
+    }
+  ],
+  "keywords": [
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ],
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "SignalP"
+        }
+      ],
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "10984043",
+        "citationType": "journal article",
+        "authors": [
+          "Stover C.K.",
+          "Pham X.Q.",
+          "Erwin A.L.",
+          "Mizoguchi S.D.",
+          "Warrener P.",
+          "Hickey M.J.",
+          "Brinkman F.S.",
+          "Hufnagle W.O.",
+          "Kowalik D.J.",
+          "Lagrou M.",
+          "Garber R.L.",
+          "Goltry L.",
+          "Tolentino E.",
+          "Westbrock-Wadman S.",
+          "Yuan Y.",
+          "Brody L.L.",
+          "Coulter S.N.",
+          "Folger K.R.",
+          "Kas A.",
+          "Larbig K.",
+          "Lim R.",
+          "Smith K.",
+          "Spencer D.",
+          "Wong G.K.",
+          "Wu Z.",
+          "Paulsen I.T.",
+          "Reizer J.",
+          "Saier M.H.",
+          "Hancock R.E.",
+          "Lory S.",
+          "Olson M.V."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10984043"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/35023079"
+          }
+        ],
+        "title": "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic pathogen.",
+        "publicationDate": "2000",
+        "journal": "Nature",
+        "firstPage": "959",
+        "lastPage": "964",
+        "volume": "406"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000002438"
+            }
+          ],
+          "value": "ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1",
+          "type": "STRAIN"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAG03436.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AE004091",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAG03436.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "A83640",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "A83640"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_248736.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NC_002516.2"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_003083569.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NZ_QZGE01000015.1"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q9I786",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q9I786",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "208964.PA0046",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "208964-PA0046",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "878290",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "878290",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "pae:PA0046",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|208964.12.peg.47",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PseudoCAP",
+      "id": "PA0046",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_139008_1_1_6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q9I786",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "9800218at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "PAER208964:G1FZ6-48-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002438",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR014508",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "UCP020555_TPR-like"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF16068",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DUF4810"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF020555",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "UCP020555"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51257",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "PROKAR_LIPOPROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MSKTITWTAALLGSMALAGCSGPKTLYQWEGYQAQVHEYFKGESKEAQAQALEADLEKIRAKNGAVPPGYHAQLGLLYSSIGKDDQMVREFETEKALFPESATYMDFLLNNARGGAR",
+    "length": 117,
+    "molWeight": 12866,
+    "crc64": "A41A64CA26291A79",
+    "md5": "71D795BEF02320B54D8F0B3A2498E74F"
+  },
+  "extraAttributes": {
+    "countByFeatureType": {
+      "Signal": 1,
+      "Chain": 1
+    },
+    "uniParcId": "UPI00000C4F00"
+  }
+}

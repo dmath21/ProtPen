@@ -1,0 +1,12 @@
+## Fri Jun 13 13:29:53 2025
+## emapper-2.1.12-3-g3666cb0
+## /shared/rc/proteome/BASIL/eggnog-mapper/emapper.py -i sample_proteins.fasta -m diamond -m mmseqs -o eggnog_output/search_run --excel
+##
+#query	seed_ortholog	evalue	score	eggNOG_OGs	max_annot_lvl	COG_category	Description	Preferred_name	GOs	EC	KEGG_ko	KEGG_Pathway	KEGG_Module	KEGG_Reaction	KEGG_rclass	BRITE	KEGG_TC	CAZy	BiGG_Reaction	PFAMs
+Q9I786	287.DR97_3003	5.58e-72	243.0	COG4259@1|root,COG4259@2|Bacteria,1N7DV@1224|Proteobacteria,1S7AS@1236|Gammaproteobacteria,1YJVR@136841|Pseudomonas aeruginosa group	1236|Gammaproteobacteria	S	Domain of unknown function (DUF4810)	Z012_10670	-	-	-	-	-	-	-	-	-	-	-	DUF4810
+Q9I368	287.DR97_231	9.456e-99	323.0	COG3516@1|root,COG3516@2|Bacteria,1RGHT@1224|Proteobacteria,1S4Q5@1236|Gammaproteobacteria,1YE2F@136841|Pseudomonas aeruginosa group	1236|Gammaproteobacteria	S	Type VI secretion system, VipA, VC_A0107 or Hcp2	impB3	-	-	ko:K11901	ko02025,map02025	M00334	-	-	ko00000,ko00001,ko00002,ko02044	3.A.23.1	-	-	T6SS_VipA
+Q9HZG6	287.DR97_4894	3.415e-58	202.0	2B18W@1|root,31TPC@2|Bacteria,1QREX@1224|Proteobacteria,1TBDF@1236|Gammaproteobacteria,1YH8S@136841|Pseudomonas aeruginosa group	1236|Gammaproteobacteria	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+Q9HW80	287.DR97_1497	4.18e-268	826.0	COG3064@1|root,COG3064@2|Bacteria,1RINZ@1224|Proteobacteria,1S7TN@1236|Gammaproteobacteria,1YCU0@136841|Pseudomonas aeruginosa group	1236|Gammaproteobacteria	M	Domain of unknown function (DUF4350)	-	-	-	-	-	-	-	-	-	-	-	-	DUF4350
+## 4 queries scanned
+## Total time (seconds): 27.419639348983765
+## Rate: 0.15 q/s

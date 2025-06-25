@@ -1,0 +1,41 @@
+#  emapper-2.1.12-3-g3666cb0
+# emapper.py  -i sample_proteins.fasta -m diamond -m mmseqs -o eggnog_output/search_run --excel
+[1;33m  /shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs createdb '/shared/rc/proteome/protpen/ProtPen/sample_search/sample_proteins.fasta' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/ba15d5c216c34e2b91ff2582eabd2db6' --dbtype 1[0m
+[1;33m  /shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs search -a true '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/ba15d5c216c34e2b91ff2582eabd2db6' '/shared/rc/proteome/BASIL/eggnog-mapper/data/mmseqs/mmseqs.db' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/7a12f425353b4154ad4534b41c98a572' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf' --start-sens 3 --sens-steps 3 -s 7 --threads 1[0m
+[1;33m  /shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs filterdb '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/7a12f425353b4154ad4534b41c98a572' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/21e3389d4d8641589dc4b0c30ef2c54a' --threads 1 --extract-lines 1 [0m
+[1;33m  /shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs convertalis '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/ba15d5c216c34e2b91ff2582eabd2db6' '/shared/rc/proteome/BASIL/eggnog-mapper/data/mmseqs/mmseqs.db' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/21e3389d4d8641589dc4b0c30ef2c54a' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/21e3389d4d8641589dc4b0c30ef2c54a.m8' --threads 1 --format-output "query,target,pident,alnlen,qstart,qend,tstart,tend,evalue,bits,qcov,tcov"[0m
+[32mDone[0m
+[1;33mResult files:[0m
+   /shared/rc/proteome/protpen/ProtPen/sample_search/eggnog_output/search_run.emapper.hits
+   /shared/rc/proteome/protpen/ProtPen/sample_search/eggnog_output/search_run.emapper.seed_orthologs
+   /shared/rc/proteome/protpen/ProtPen/sample_search/eggnog_output/search_run.emapper.annotations
+   /shared/rc/proteome/protpen/ProtPen/sample_search/eggnog_output/search_run.emapper.annotations.xlsx
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas. 2021.
+      Molecular Biology and Evolution, msab293, https://doi.org/10.1093/molbev/msab293
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets.
+       Steinegger M & Söding J. 2017. Nat. Biotech. 35, 1026–1028. https://doi.org/10.1038/nbt.3988
+
+e.g. Functional annotation was performed using eggNOG-mapper (version emapper-2.1.12-3-g3666cb0) [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+================================================================================
+
+Total hits processed: 4
+Total time: 4290 secs
+FINISHED

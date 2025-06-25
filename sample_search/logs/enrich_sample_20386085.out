@@ -1,0 +1,16 @@
+Found 13 unique PDB IDs in Foldseek results.
+Submitting batched UniProt mapping jobs...
+Retrieved UniProt mappings for 10 PDB IDs.
+Downloaded UniProt JSON for Q9KN57
+Downloaded UniProt JSON for Q9KN58
+Downloaded UniProt JSON for P72350
+Downloaded UniProt JSON for Q1D303
+Downloaded UniProt JSON for Q1D304
+Downloaded UniProt JSON for Q1D305
+Downloaded UniProt JSON for Q8U3U2
+Downloaded UniProt JSON for O58247
+Downloaded UniProt JSON for W0J1H8
+Downloaded UniProt JSON for I0AIT9
+Downloaded UniProt JSON for K7N5L8
+Writing enriched TSV to enriched_foldseek_results.tsv
+Enrichment complete.

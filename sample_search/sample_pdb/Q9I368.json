@@ -1,0 +1,470 @@
+{
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "primaryAccession": "Q9I368",
+  "uniProtkbId": "Q9I368_PSEAE",
+  "entryAudit": {
+    "firstPublicDate": "2001-03-01",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2001-03-01",
+    "entryVersion": 98,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 1.0,
+  "organism": {
+    "scientificName": "Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)",
+    "taxonId": 208964,
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "EMBL",
+        "id": "AAG05046.1"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "Proteomes",
+        "id": "UP000002438"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Pseudomonadota",
+      "Gammaproteobacteria",
+      "Pseudomonadales",
+      "Pseudomonadaceae",
+      "Pseudomonas"
+    ]
+  },
+  "proteinExistence": "4: Predicted",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0008006",
+            "source": "Google",
+            "id": "ProtNLM"
+          }
+        ],
+        "value": "Type VI secretion system contractile sheath small subunit"
+      }
+    }
+  },
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAG05046.1"
+            }
+          ],
+          "value": "PA1657"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ],
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "10984043",
+        "citationType": "journal article",
+        "authors": [
+          "Stover C.K.",
+          "Pham X.Q.",
+          "Erwin A.L.",
+          "Mizoguchi S.D.",
+          "Warrener P.",
+          "Hickey M.J.",
+          "Brinkman F.S.",
+          "Hufnagle W.O.",
+          "Kowalik D.J.",
+          "Lagrou M.",
+          "Garber R.L.",
+          "Goltry L.",
+          "Tolentino E.",
+          "Westbrock-Wadman S.",
+          "Yuan Y.",
+          "Brody L.L.",
+          "Coulter S.N.",
+          "Folger K.R.",
+          "Kas A.",
+          "Larbig K.",
+          "Lim R.",
+          "Smith K.",
+          "Spencer D.",
+          "Wong G.K.",
+          "Wu Z.",
+          "Paulsen I.T.",
+          "Reizer J.",
+          "Saier M.H.",
+          "Hancock R.E.",
+          "Lory S.",
+          "Olson M.V."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10984043"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/35023079"
+          }
+        ],
+        "title": "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic pathogen.",
+        "publicationDate": "2000",
+        "journal": "Nature",
+        "firstPage": "959",
+        "lastPage": "964",
+        "volume": "406"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000002438"
+            }
+          ],
+          "value": "ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1",
+          "type": "STRAIN"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAG05046.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AE004091",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAG05046.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "C83439",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "C83439"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_250348.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NC_002516.2"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q9I368",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q9I368",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "208964.PA1657",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "208964-PA1657",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "879559",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "879559",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "pae:PA1657",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|208964.12.peg.1718",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PseudoCAP",
+      "id": "PA1657",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_111033_1_0_6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q9I368",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "9789942at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q9I368",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "PAER208964:G1FZ6-1688-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002438",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0033103",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:protein secretion by the type VI secretion system"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IGC:PseudoCAP"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000317",
+          "source": "PubMed",
+          "id": "18524912"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR008312",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_TssB1"
+        }
+      ]
+    },
+    {
+      "database": "NCBIfam",
+      "id": "TIGR03358",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "VI_chp_5"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR35850",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOPLASMIC PROTEIN-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR35850:SF2",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TYPE VI SECRETION SYSTEM CONTRACTILE SHEATH SMALL SUBUNIT"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF05591",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_VipA"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PIRSF",
+      "id": "PIRSF028301",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "UCP028301"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MAKEGSVAPKERINVTFKPATGGAQEEIELPLKLLAIGDYTQRADERKVEDRKPIGIDKMTFDEVLAKQELGLTLSVPNRLQEEGGSDELAVGLQINSMKDFNPASIVEQVPELKKLMELRDALVALKGPLGNAPAFRKAIESVLADDESRSRVLGELGLSAAPSQDA",
+    "length": 168,
+    "molWeight": 18165,
+    "crc64": "9F5187BC2D1C5577",
+    "md5": "885429CFA6D0D7927D88552308BBF46B"
+  },
+  "extraAttributes": {
+    "uniParcId": "UPI00000C542F"
+  }
+}

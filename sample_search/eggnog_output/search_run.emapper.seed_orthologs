@@ -1,0 +1,16 @@
+## Fri Jun 13 13:29:53 2025
+## emapper-2.1.12-3-g3666cb0
+## /shared/rc/proteome/BASIL/eggnog-mapper/emapper.py -i sample_proteins.fasta -m diamond -m mmseqs -o eggnog_output/search_run --excel
+##
+##/shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs createdb '/shared/rc/proteome/protpen/ProtPen/sample_search/sample_proteins.fasta' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/ba15d5c216c34e2b91ff2582eabd2db6' --dbtype 1
+##/shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs search -a true '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/ba15d5c216c34e2b91ff2582eabd2db6' '/shared/rc/proteome/BASIL/eggnog-mapper/data/mmseqs/mmseqs.db' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/7a12f425353b4154ad4534b41c98a572' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf' --start-sens 3 --sens-steps 3 -s 7 --threads 1
+##/shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs filterdb '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/7a12f425353b4154ad4534b41c98a572' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/21e3389d4d8641589dc4b0c30ef2c54a' --threads 1 --extract-lines 1 
+##/shared/rc/proteome/BASIL/eggnog-mapper/eggnogmapper/bin/mmseqs convertalis '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/ba15d5c216c34e2b91ff2582eabd2db6' '/shared/rc/proteome/BASIL/eggnog-mapper/data/mmseqs/mmseqs.db' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/21e3389d4d8641589dc4b0c30ef2c54a' '/shared/rc/proteome/protpen/ProtPen/sample_search/emappertmp_mmseqs_xe4xndkf/21e3389d4d8641589dc4b0c30ef2c54a.m8' --threads 1 --format-output "query,target,pident,alnlen,qstart,qend,tstart,tend,evalue,bits,qcov,tcov"
+#qseqid	sseqid	evalue	bitscore	qstart	qend	sstart	send	pident	qcov	scov
+Q9I786	287.DR97_3003	5.58e-72	243.0	1	117	1	117	100.0	100.0	100.0
+Q9I368	287.DR97_231	9.456e-99	323.0	1	168	1	168	98.8	100.0	100.0
+Q9HZG6	287.DR97_4894	3.415e-58	202.0	1	107	1	107	100.0	100.0	100.0
+Q9HW80	287.DR97_1497	4.18e-268	826.0	1	423	1	423	99.5	100.0	100.0
+## 4 queries scanned
+## Total time (seconds): 0.007102251052856445
+## Rate: 563.20 q/s

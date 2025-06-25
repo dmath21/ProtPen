@@ -1,0 +1,664 @@
+easy-search sample_pdb/Q9I786.pdb /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_output/Q9I786.tsv sample_foldseek_tmp --format-mode 4 
+
+MMseqs Version:              	GITDIR-NOTFOUND
+Seq. id. threshold           	0
+Coverage threshold           	0
+Coverage mode                	0
+Max reject                   	2147483647
+Max accept                   	2147483647
+Add backtrace                	false
+TMscore threshold            	0
+TMalign hit order            	0
+TMalign fast                 	1
+Preload mode                 	0
+Threads                      	36
+Verbosity                    	3
+LDDT threshold               	0
+Sort by structure bit score  	1
+Alignment type               	2
+Exact TMscore                	0
+Substitution matrix          	aa:3di.out,nucl:3di.out
+Alignment mode               	3
+Alignment mode               	0
+E-value threshold            	10
+Min alignment length         	0
+Seq. id. mode                	0
+Alternative alignments       	0
+Max sequence length          	65535
+Compositional bias           	1
+Compositional bias           	1
+Gap open cost                	aa:10,nucl:10
+Gap extension cost           	aa:1,nucl:1
+Compressed                   	0
+Seed substitution matrix     	aa:3di.out,nucl:3di.out
+Sensitivity                  	9.5
+k-mer length                 	6
+Target search mode           	0
+k-score                      	seq:2147483647,prof:2147483647
+Max results per query        	1000
+Split database               	0
+Split mode                   	2
+Split memory limit           	0
+Diagonal scoring             	true
+Exact k-mer matching         	0
+Mask residues                	0
+Mask residues probability    	0.99995
+Mask lower case residues     	1
+Minimum diagonal score       	30
+Selected taxa                	
+Spaced k-mers                	1
+Spaced k-mer pattern         	
+Local temporary path         	
+Exhaustive search mode       	false
+Prefilter mode               	0
+Search iterations            	1
+Remove temporary files       	true
+MPI runner                   	
+Force restart with latest tmp	false
+Cluster search               	0
+Path to ProstT5              	
+Chain name mode              	0
+Write mapping file           	0
+Mask b-factor threshold      	0
+Coord store mode             	2
+Write lookup file            	1
+Input format                 	0
+File Inclusion Regex         	.*
+File Exclusion Regex         	^$
+Alignment format             	4
+Format alignment output      	query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits
+Database output              	false
+Greedy best hits             	false
+
+createdb sample_pdb/Q9I786.pdb sample_foldseek_tmp/8379428679124329074/query --chain-name-mode 0 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 36 -v 3 
+
+Output file: sample_foldseek_tmp/8379428679124329074/query
+[=================================================================] 1 0s 2ms
+Time for merging to query_ss: 0h 0m 0s 148ms
+Time for merging to query_h: 0h 0m 0s 85ms
+Time for merging to query_ca: 0h 0m 0s 46ms
+Time for merging to query: 0h 0m 0s 52ms
+Ignore 0 out of 1.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 680ms
+Create directory sample_foldseek_tmp/8379428679124329074/search_tmp
+search sample_foldseek_tmp/8379428679124329074/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/8379428679124329074/result sample_foldseek_tmp/8379428679124329074/search_tmp --alignment-mode 3 --comp-bias-corr 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 -s 9.5 -k 6 --mask 0 --mask-prob 0.99995 --remove-tmp-files 1 
+
+prefilter sample_foldseek_tmp/8379428679124329074/query_ss /shared/rc/proteome/protpen/run_pipeline/pdb_ss sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.99995 --mask-lower-case 1 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 36 --compressed 0 -v 3 
+
+Query database size: 1 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 294848 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 294.85K 0s 901ms
+Index table: Masked residues: 493
+Index table: fill
+[=================================================================] 294.85K 1s 238ms
+Index statistics
+Entries:          61221412
+DB size:          838 MB
+Avg k-mer size:   0.956585
+Top 10 k-mers
+    LVLVVV	65135
+    VVLVVV	59077
+    SVSVVV	55628
+    VVSVVV	49699
+    LVVVVV	47083
+    SVVVVV	46136
+    CVVVVV	24429
+    VCVVVV	22233
+    VLVVVV	20593
+    LVSVVV	19030
+Time for index table init: 0h 0m 2s 724ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 78
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1
+Target db start 1 to 294848
+[=================================================================] 1 0s 0ms
+
+142.923077 k-mers per position
+1866301 DB matches per sequence
+0 overflows
+1000 sequences passed prefiltering per query sequence
+1000 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 3s 177ms
+structurealign sample_foldseek_tmp/8379428679124329074/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/pref sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/strualn --tmscore-threshold 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 36 --compressed 0 -v 3 
+
+[=================================================================] 1 0s 364ms
+Time for merging to strualn: 0h 0m 0s 42ms
+Time for processing: 0h 0m 2s 704ms
+mvdb sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/strualn sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/aln 
+
+Time for processing: 0h 0m 0s 21ms
+mvdb sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/aln sample_foldseek_tmp/8379428679124329074/result -v 3 
+
+Time for processing: 0h 0m 0s 23ms
+Removing temporary files
+rmdb sample_foldseek_tmp/8379428679124329074/search_tmp/13471984880068952464/pref -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis sample_foldseek_tmp/8379428679124329074/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/8379428679124329074/result sample_foldseek_output/Q9I786.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 4 --format-output query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 36 --compressed 0 -v 3 --exact-tmscore 0 
+
+[=================================================================] 1 0s 0ms
+Time for merging to Q9I786.tsv: 0h 0m 0s 11ms
+Time for processing: 0h 0m 0s 169ms
+rmdb sample_foldseek_tmp/8379428679124329074/result -v 3 
+
+Time for processing: 0h 0m 0s 20ms
+rmdb sample_foldseek_tmp/8379428679124329074/query -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb sample_foldseek_tmp/8379428679124329074/query_h -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb sample_foldseek_tmp/8379428679124329074/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb sample_foldseek_tmp/8379428679124329074/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+easy-search sample_pdb/Q9HZG6.pdb /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_output/Q9HZG6.tsv sample_foldseek_tmp --format-mode 4 
+
+MMseqs Version:              	GITDIR-NOTFOUND
+Seq. id. threshold           	0
+Coverage threshold           	0
+Coverage mode                	0
+Max reject                   	2147483647
+Max accept                   	2147483647
+Add backtrace                	false
+TMscore threshold            	0
+TMalign hit order            	0
+TMalign fast                 	1
+Preload mode                 	0
+Threads                      	36
+Verbosity                    	3
+LDDT threshold               	0
+Sort by structure bit score  	1
+Alignment type               	2
+Exact TMscore                	0
+Substitution matrix          	aa:3di.out,nucl:3di.out
+Alignment mode               	3
+Alignment mode               	0
+E-value threshold            	10
+Min alignment length         	0
+Seq. id. mode                	0
+Alternative alignments       	0
+Max sequence length          	65535
+Compositional bias           	1
+Compositional bias           	1
+Gap open cost                	aa:10,nucl:10
+Gap extension cost           	aa:1,nucl:1
+Compressed                   	0
+Seed substitution matrix     	aa:3di.out,nucl:3di.out
+Sensitivity                  	9.5
+k-mer length                 	6
+Target search mode           	0
+k-score                      	seq:2147483647,prof:2147483647
+Max results per query        	1000
+Split database               	0
+Split mode                   	2
+Split memory limit           	0
+Diagonal scoring             	true
+Exact k-mer matching         	0
+Mask residues                	0
+Mask residues probability    	0.99995
+Mask lower case residues     	1
+Minimum diagonal score       	30
+Selected taxa                	
+Spaced k-mers                	1
+Spaced k-mer pattern         	
+Local temporary path         	
+Exhaustive search mode       	false
+Prefilter mode               	0
+Search iterations            	1
+Remove temporary files       	true
+MPI runner                   	
+Force restart with latest tmp	false
+Cluster search               	0
+Path to ProstT5              	
+Chain name mode              	0
+Write mapping file           	0
+Mask b-factor threshold      	0
+Coord store mode             	2
+Write lookup file            	1
+Input format                 	0
+File Inclusion Regex         	.*
+File Exclusion Regex         	^$
+Alignment format             	4
+Format alignment output      	query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits
+Database output              	false
+Greedy best hits             	false
+
+createdb sample_pdb/Q9HZG6.pdb sample_foldseek_tmp/5885599023662175433/query --chain-name-mode 0 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 36 -v 3 
+
+Output file: sample_foldseek_tmp/5885599023662175433/query
+[=================================================================] 1 0s 2ms
+Time for merging to query_ss: 0h 0m 0s 229ms
+Time for merging to query_h: 0h 0m 0s 54ms
+Time for merging to query_ca: 0h 0m 0s 56ms
+Time for merging to query: 0h 0m 0s 45ms
+Ignore 0 out of 1.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 552ms
+Create directory sample_foldseek_tmp/5885599023662175433/search_tmp
+search sample_foldseek_tmp/5885599023662175433/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/5885599023662175433/result sample_foldseek_tmp/5885599023662175433/search_tmp --alignment-mode 3 --comp-bias-corr 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 -s 9.5 -k 6 --mask 0 --mask-prob 0.99995 --remove-tmp-files 1 
+
+prefilter sample_foldseek_tmp/5885599023662175433/query_ss /shared/rc/proteome/protpen/run_pipeline/pdb_ss sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.99995 --mask-lower-case 1 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 36 --compressed 0 -v 3 
+
+Query database size: 1 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 294848 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 294.85K 0s 502ms
+Index table: Masked residues: 493
+Index table: fill
+[=================================================================] 294.85K 1s 232ms
+Index statistics
+Entries:          61221412
+DB size:          838 MB
+Avg k-mer size:   0.956585
+Top 10 k-mers
+    LVLVVV	65135
+    VVLVVV	59077
+    SVSVVV	55628
+    VVSVVV	49699
+    LVVVVV	47083
+    SVVVVV	46136
+    CVVVVV	24429
+    VCVVVV	22233
+    VLVVVV	20593
+    LVSVVV	19030
+Time for index table init: 0h 0m 2s 283ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 78
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1
+Target db start 1 to 294848
+[=================================================================] 1 0s 0ms
+
+3.682243 k-mers per position
+109621 DB matches per sequence
+0 overflows
+1000 sequences passed prefiltering per query sequence
+1000 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 3ms
+Time for processing: 0h 0m 2s 499ms
+structurealign sample_foldseek_tmp/5885599023662175433/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/pref sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/strualn --tmscore-threshold 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 36 --compressed 0 -v 3 
+
+[=================================================================] 1 0s 349ms
+Time for merging to strualn: 0h 0m 0s 20ms
+Time for processing: 0h 0m 0s 926ms
+mvdb sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/strualn sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/aln 
+
+Time for processing: 0h 0m 0s 18ms
+mvdb sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/aln sample_foldseek_tmp/5885599023662175433/result -v 3 
+
+Time for processing: 0h 0m 0s 25ms
+Removing temporary files
+rmdb sample_foldseek_tmp/5885599023662175433/search_tmp/2438892835311024264/pref -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+convertalis sample_foldseek_tmp/5885599023662175433/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/5885599023662175433/result sample_foldseek_output/Q9HZG6.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 4 --format-output query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 36 --compressed 0 -v 3 --exact-tmscore 0 
+
+[=================================================================] 1 0s 0ms
+Time for merging to Q9HZG6.tsv: 0h 0m 0s 17ms
+Time for processing: 0h 0m 0s 66ms
+rmdb sample_foldseek_tmp/5885599023662175433/result -v 3 
+
+Time for processing: 0h 0m 0s 22ms
+rmdb sample_foldseek_tmp/5885599023662175433/query -v 3 
+
+Time for processing: 0h 0m 0s 10ms
+rmdb sample_foldseek_tmp/5885599023662175433/query_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb sample_foldseek_tmp/5885599023662175433/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb sample_foldseek_tmp/5885599023662175433/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+easy-search sample_pdb/Q9HW80.pdb /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_output/Q9HW80.tsv sample_foldseek_tmp --format-mode 4 
+
+MMseqs Version:              	GITDIR-NOTFOUND
+Seq. id. threshold           	0
+Coverage threshold           	0
+Coverage mode                	0
+Max reject                   	2147483647
+Max accept                   	2147483647
+Add backtrace                	false
+TMscore threshold            	0
+TMalign hit order            	0
+TMalign fast                 	1
+Preload mode                 	0
+Threads                      	36
+Verbosity                    	3
+LDDT threshold               	0
+Sort by structure bit score  	1
+Alignment type               	2
+Exact TMscore                	0
+Substitution matrix          	aa:3di.out,nucl:3di.out
+Alignment mode               	3
+Alignment mode               	0
+E-value threshold            	10
+Min alignment length         	0
+Seq. id. mode                	0
+Alternative alignments       	0
+Max sequence length          	65535
+Compositional bias           	1
+Compositional bias           	1
+Gap open cost                	aa:10,nucl:10
+Gap extension cost           	aa:1,nucl:1
+Compressed                   	0
+Seed substitution matrix     	aa:3di.out,nucl:3di.out
+Sensitivity                  	9.5
+k-mer length                 	6
+Target search mode           	0
+k-score                      	seq:2147483647,prof:2147483647
+Max results per query        	1000
+Split database               	0
+Split mode                   	2
+Split memory limit           	0
+Diagonal scoring             	true
+Exact k-mer matching         	0
+Mask residues                	0
+Mask residues probability    	0.99995
+Mask lower case residues     	1
+Minimum diagonal score       	30
+Selected taxa                	
+Spaced k-mers                	1
+Spaced k-mer pattern         	
+Local temporary path         	
+Exhaustive search mode       	false
+Prefilter mode               	0
+Search iterations            	1
+Remove temporary files       	true
+MPI runner                   	
+Force restart with latest tmp	false
+Cluster search               	0
+Path to ProstT5              	
+Chain name mode              	0
+Write mapping file           	0
+Mask b-factor threshold      	0
+Coord store mode             	2
+Write lookup file            	1
+Input format                 	0
+File Inclusion Regex         	.*
+File Exclusion Regex         	^$
+Alignment format             	4
+Format alignment output      	query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits
+Database output              	false
+Greedy best hits             	false
+
+createdb sample_pdb/Q9HW80.pdb sample_foldseek_tmp/9310304878058173771/query --chain-name-mode 0 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 36 -v 3 
+
+Output file: sample_foldseek_tmp/9310304878058173771/query
+[=================================================================] 1 0s 1ms
+Time for merging to query_ss: 0h 0m 0s 46ms
+Time for merging to query_h: 0h 0m 0s 53ms
+Time for merging to query_ca: 0h 0m 0s 51ms
+Time for merging to query: 0h 0m 0s 63ms
+Ignore 0 out of 1.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 477ms
+Create directory sample_foldseek_tmp/9310304878058173771/search_tmp
+search sample_foldseek_tmp/9310304878058173771/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/9310304878058173771/result sample_foldseek_tmp/9310304878058173771/search_tmp --alignment-mode 3 --comp-bias-corr 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 -s 9.5 -k 6 --mask 0 --mask-prob 0.99995 --remove-tmp-files 1 
+
+prefilter sample_foldseek_tmp/9310304878058173771/query_ss /shared/rc/proteome/protpen/run_pipeline/pdb_ss sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.99995 --mask-lower-case 1 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 36 --compressed 0 -v 3 
+
+Query database size: 1 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 294848 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 294.85K 0s 509ms
+Index table: Masked residues: 493
+Index table: fill
+[=================================================================] 294.85K 1s 243ms
+Index statistics
+Entries:          61221412
+DB size:          838 MB
+Avg k-mer size:   0.956585
+Top 10 k-mers
+    LVLVVV	65135
+    VVLVVV	59077
+    SVSVVV	55628
+    VVSVVV	49699
+    LVVVVV	47083
+    SVVVVV	46136
+    CVVVVV	24429
+    VCVVVV	22233
+    VLVVVV	20593
+    LVSVVV	19030
+Time for index table init: 0h 0m 2s 337ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 78
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1
+Target db start 1 to 294848
+[=================================================================] 1 0s 0ms
+
+3345.676123 k-mers per position
+11401960 DB matches per sequence
+1 overflows
+1000 sequences passed prefiltering per query sequence
+1000 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 2s 851ms
+structurealign sample_foldseek_tmp/9310304878058173771/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/pref sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/strualn --tmscore-threshold 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 36 --compressed 0 -v 3 
+
+[=================================================================] 1 0s 224ms
+Time for merging to strualn: 0h 0m 0s 29ms
+Time for processing: 0h 0m 1s 29ms
+mvdb sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/strualn sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/aln 
+
+Time for processing: 0h 0m 0s 16ms
+mvdb sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/aln sample_foldseek_tmp/9310304878058173771/result -v 3 
+
+Time for processing: 0h 0m 0s 32ms
+Removing temporary files
+rmdb sample_foldseek_tmp/9310304878058173771/search_tmp/16394191453372238747/pref -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+convertalis sample_foldseek_tmp/9310304878058173771/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/9310304878058173771/result sample_foldseek_output/Q9HW80.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 4 --format-output query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 36 --compressed 0 -v 3 --exact-tmscore 0 
+
+[=================================================================] 1 0s 0ms
+Time for merging to Q9HW80.tsv: 0h 0m 0s 18ms
+Time for processing: 0h 0m 0s 67ms
+rmdb sample_foldseek_tmp/9310304878058173771/result -v 3 
+
+Time for processing: 0h 0m 0s 29ms
+rmdb sample_foldseek_tmp/9310304878058173771/query -v 3 
+
+Time for processing: 0h 0m 0s 7ms
+rmdb sample_foldseek_tmp/9310304878058173771/query_h -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb sample_foldseek_tmp/9310304878058173771/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb sample_foldseek_tmp/9310304878058173771/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+easy-search sample_pdb/Q9I368.pdb /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_output/Q9I368.tsv sample_foldseek_tmp --format-mode 4 
+
+MMseqs Version:              	GITDIR-NOTFOUND
+Seq. id. threshold           	0
+Coverage threshold           	0
+Coverage mode                	0
+Max reject                   	2147483647
+Max accept                   	2147483647
+Add backtrace                	false
+TMscore threshold            	0
+TMalign hit order            	0
+TMalign fast                 	1
+Preload mode                 	0
+Threads                      	36
+Verbosity                    	3
+LDDT threshold               	0
+Sort by structure bit score  	1
+Alignment type               	2
+Exact TMscore                	0
+Substitution matrix          	aa:3di.out,nucl:3di.out
+Alignment mode               	3
+Alignment mode               	0
+E-value threshold            	10
+Min alignment length         	0
+Seq. id. mode                	0
+Alternative alignments       	0
+Max sequence length          	65535
+Compositional bias           	1
+Compositional bias           	1
+Gap open cost                	aa:10,nucl:10
+Gap extension cost           	aa:1,nucl:1
+Compressed                   	0
+Seed substitution matrix     	aa:3di.out,nucl:3di.out
+Sensitivity                  	9.5
+k-mer length                 	6
+Target search mode           	0
+k-score                      	seq:2147483647,prof:2147483647
+Max results per query        	1000
+Split database               	0
+Split mode                   	2
+Split memory limit           	0
+Diagonal scoring             	true
+Exact k-mer matching         	0
+Mask residues                	0
+Mask residues probability    	0.99995
+Mask lower case residues     	1
+Minimum diagonal score       	30
+Selected taxa                	
+Spaced k-mers                	1
+Spaced k-mer pattern         	
+Local temporary path         	
+Exhaustive search mode       	false
+Prefilter mode               	0
+Search iterations            	1
+Remove temporary files       	true
+MPI runner                   	
+Force restart with latest tmp	false
+Cluster search               	0
+Path to ProstT5              	
+Chain name mode              	0
+Write mapping file           	0
+Mask b-factor threshold      	0
+Coord store mode             	2
+Write lookup file            	1
+Input format                 	0
+File Inclusion Regex         	.*
+File Exclusion Regex         	^$
+Alignment format             	4
+Format alignment output      	query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits
+Database output              	false
+Greedy best hits             	false
+
+createdb sample_pdb/Q9I368.pdb sample_foldseek_tmp/13631049609555116591/query --chain-name-mode 0 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 36 -v 3 
+
+Output file: sample_foldseek_tmp/13631049609555116591/query
+[=================================================================] 1 0s 2ms
+Time for merging to query_ss: 0h 0m 0s 45ms
+Time for merging to query_h: 0h 0m 0s 51ms
+Time for merging to query_ca: 0h 0m 0s 58ms
+Time for merging to query: 0h 0m 0s 58ms
+Ignore 0 out of 1.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 378ms
+Create directory sample_foldseek_tmp/13631049609555116591/search_tmp
+search sample_foldseek_tmp/13631049609555116591/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/13631049609555116591/result sample_foldseek_tmp/13631049609555116591/search_tmp --alignment-mode 3 --comp-bias-corr 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 -s 9.5 -k 6 --mask 0 --mask-prob 0.99995 --remove-tmp-files 1 
+
+prefilter sample_foldseek_tmp/13631049609555116591/query_ss /shared/rc/proteome/protpen/run_pipeline/pdb_ss sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.99995 --mask-lower-case 1 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 36 --compressed 0 -v 3 
+
+Query database size: 1 type: Aminoacid
+Estimated memory consumption: 1G
+Target database size: 294848 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 294.85K 0s 503ms
+Index table: Masked residues: 493
+Index table: fill
+[=================================================================] 294.85K 1s 231ms
+Index statistics
+Entries:          61221412
+DB size:          838 MB
+Avg k-mer size:   0.956585
+Top 10 k-mers
+    LVLVVV	65135
+    VVLVVV	59077
+    SVSVVV	55628
+    VVSVVV	49699
+    LVVVVV	47083
+    SVVVVV	46136
+    CVVVVV	24429
+    VCVVVV	22233
+    VLVVVV	20593
+    LVSVVV	19030
+Time for index table init: 0h 0m 2s 303ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 78
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 1
+Target db start 1 to 294848
+[=================================================================] 1 0s 0ms
+
+1500.095238 k-mers per position
+2188347 DB matches per sequence
+1 overflows
+1000 sequences passed prefiltering per query sequence
+1000 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 1ms
+Time for processing: 0h 0m 2s 567ms
+structurealign sample_foldseek_tmp/13631049609555116591/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/pref sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/strualn --tmscore-threshold 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 36 --compressed 0 -v 3 
+
+[=================================================================] 1 0s 194ms
+Time for merging to strualn: 0h 0m 0s 25ms
+Time for processing: 0h 0m 0s 908ms
+mvdb sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/strualn sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/aln 
+
+Time for processing: 0h 0m 0s 17ms
+mvdb sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/aln sample_foldseek_tmp/13631049609555116591/result -v 3 
+
+Time for processing: 0h 0m 0s 21ms
+Removing temporary files
+rmdb sample_foldseek_tmp/13631049609555116591/search_tmp/11865883812711959515/pref -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+convertalis sample_foldseek_tmp/13631049609555116591/query /shared/rc/proteome/protpen/run_pipeline/pdb sample_foldseek_tmp/13631049609555116591/result sample_foldseek_output/Q9I368.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 4 --format-output query,target,fident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 36 --compressed 0 -v 3 --exact-tmscore 0 
+
+[=================================================================] 1 0s 0ms
+Time for merging to Q9I368.tsv: 0h 0m 0s 15ms
+Time for processing: 0h 0m 0s 64ms
+rmdb sample_foldseek_tmp/13631049609555116591/result -v 3 
+
+Time for processing: 0h 0m 0s 32ms
+rmdb sample_foldseek_tmp/13631049609555116591/query -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb sample_foldseek_tmp/13631049609555116591/query_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb sample_foldseek_tmp/13631049609555116591/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb sample_foldseek_tmp/13631049609555116591/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+Running Foldseek for Q9I786.pdb...
+Results saved to sample_foldseek_output/Q9I786.tsv
+Running Foldseek for Q9HZG6.pdb...
+Results saved to sample_foldseek_output/Q9HZG6.tsv
+Running Foldseek for Q9HW80.pdb...
+Results saved to sample_foldseek_output/Q9HW80.tsv
+Running Foldseek for Q9I368.pdb...
+Results saved to sample_foldseek_output/Q9I368.tsv

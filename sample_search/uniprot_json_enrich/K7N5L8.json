@@ -1,0 +1,539 @@
+{
+  "annotationScore": 1.0,
+  "entryAudit": {
+    "entryVersion": 51,
+    "firstPublicDate": "2013-01-09",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2013-01-09",
+    "sequenceVersion": 1
+  },
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "extraAttributes": {
+    "countByFeatureType": {
+      "Repeat": 4
+    },
+    "uniParcId": "UPI000292D3A6"
+  },
+  "features": [
+    {
+      "description": "TPR",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "PRU00339",
+          "source": "PROSITE-ProRule"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 38
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 5
+        }
+      },
+      "type": "Repeat"
+    },
+    {
+      "description": "TPR",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "PRU00339",
+          "source": "PROSITE-ProRule"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 106
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 73
+        }
+      },
+      "type": "Repeat"
+    },
+    {
+      "description": "TPR",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "PRU00339",
+          "source": "PROSITE-ProRule"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 140
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 107
+        }
+      },
+      "type": "Repeat"
+    },
+    {
+      "description": "TPR",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "PRU00339",
+          "source": "PROSITE-ProRule"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 174
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 141
+        }
+      },
+      "type": "Repeat"
+    }
+  ],
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "3VTX",
+            "source": "PDB"
+          },
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "3VTY",
+            "source": "PDB"
+          }
+        ],
+        "value": "MamA"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "3VTX",
+          "source": "PDB"
+        },
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "3VTY",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0002",
+      "name": "3D-structure"
+    },
+    {
+      "category": "Domain",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "ARBA00022737",
+          "source": "ARBA"
+        }
+      ],
+      "id": "KW-0677",
+      "name": "Repeat"
+    },
+    {
+      "category": "Domain",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "ARBA00022803",
+          "source": "ARBA"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "PRU00339",
+          "source": "PROSITE-ProRule"
+        }
+      ],
+      "id": "KW-0802",
+      "name": "TPR repeat"
+    }
+  ],
+  "organism": {
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "3VTY",
+        "source": "PDB"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Nitrospirota",
+      "Thermodesulfovibrionia",
+      "Thermodesulfovibrionales",
+      "Candidatus Magnetobacteriaceae",
+      "Candidatus Magnetobacterium"
+    ],
+    "scientificName": "Candidatus Magnetobacterium bavaricum",
+    "taxonId": 29290
+  },
+  "primaryAccession": "K7N5L8",
+  "proteinDescription": {
+    "submissionNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "3VTX",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "3VTY",
+              "source": "PDB"
+            }
+          ],
+          "value": "MamA"
+        }
+      }
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "references": [
+    {
+      "citation": {
+        "authors": [
+          "Zeytuni N.",
+          "Baran D.",
+          "Davidov G.",
+          "Zarivach R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "22917855"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.jsb.2012.08.001"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "479",
+        "id": "22917855",
+        "journal": "J. Struct. Biol.",
+        "lastPage": "487",
+        "publicationDate": "2012",
+        "title": "Inter-phylum structural conservation of the magnetosome-associated TPR-containing protein, MamA.",
+        "volume": "180"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "3VTX",
+          "source": "PDB"
+        },
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "3VTY",
+          "source": "PDB"
+        }
+      ],
+      "referenceNumber": 1,
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS)"
+      ]
+    }
+  ],
+  "sequence": {
+    "crc64": "ED7E6BFD71AAEDF4",
+    "length": 184,
+    "md5": "EC695B45052806C621B3F7E4F6C4F4AB",
+    "molWeight": 20619,
+    "value": "MGETTTIYMDIGDKKRTKGDFDGAIRAYKKVLKADPNNVETLLKLGKTYMDIGLPNDAIESLKKFVVLDTTSAEAYYILGSANFMIDEKQAAIDALQRAIALNTVYADAYYKLGLVYDSMGEHDKAIEAYEKTISIKPGFIRAYQSIGLAYEGKGLRDEAVKYFKKALEKEEKKAKYELALVPR"
+  },
+  "uniProtKBCrossReferences": [
+    {
+      "database": "PDB",
+      "id": "3VTX",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.75 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=1-184"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3VTY",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D=1-184"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3VTX",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3VTY",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "K7N5L8",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "K7N5L8",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "K7N5L8",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.25.40.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Tetratricopeptide repeat domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR011990",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR-like_helical_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR019734",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR_rpt"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR051685",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ycf3/AcsC/BcsC/TPR_MFPF"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR44943",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CELLULOSE SYNTHASE OPERON PROTEIN C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR44943:SF8",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR REPEAT-CONTAINING PROTEIN MJ0263"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00515",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF13414",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR_11"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF13174",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR_6"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF13181",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR_8"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00028",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF48452",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50005",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50293",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TPR_REGION"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "uniProtkbId": "K7N5L8_9BACT"
+}

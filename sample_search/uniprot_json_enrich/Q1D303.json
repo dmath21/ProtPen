@@ -1,0 +1,498 @@
+{
+  "annotationScore": 1.0,
+  "entryAudit": {
+    "entryVersion": 100,
+    "firstPublicDate": "2006-07-11",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2006-07-11",
+    "sequenceVersion": 1
+  },
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "extraAttributes": {
+    "uniParcId": "UPI00004FE5DA"
+  },
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ABF91911.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "MXAN_4809"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5URW",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0002",
+      "name": "3D-structure"
+    },
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000002402",
+          "source": "Proteomes"
+        }
+      ],
+      "id": "KW-1185",
+      "name": "Reference proteome"
+    }
+  ],
+  "organism": {
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "ABF91911.1",
+        "source": "EMBL"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "UP000002402",
+        "source": "Proteomes"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Myxococcota",
+      "Myxococcia",
+      "Myxococcales",
+      "Cystobacterineae",
+      "Myxococcaceae",
+      "Myxococcus"
+    ],
+    "scientificName": "Myxococcus xanthus (strain DK1622)",
+    "taxonId": 246197
+  },
+  "primaryAccession": "Q1D303",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0008006",
+            "id": "ProtNLM",
+            "source": "Google"
+          }
+        ],
+        "value": "Protein ImpD"
+      }
+    }
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "references": [
+    {
+      "citation": {
+        "authors": [
+          "Goldman B.S.",
+          "Nierman W.C.",
+          "Kaiser D.",
+          "Slater S.C.",
+          "Durkin A.S.",
+          "Eisen J.A.",
+          "Ronning C.M.",
+          "Barbazuk W.B.",
+          "Blanchard M.",
+          "Field C.",
+          "Halling C.",
+          "Hinkle G.",
+          "Iartchuk O.",
+          "Kim H.S.",
+          "Mackenzie C.",
+          "Madupu R.",
+          "Miller N.",
+          "Shvartsbeyn A.",
+          "Sullivan S.A.",
+          "Vaudin M.",
+          "Wiegand R.",
+          "Kaplan H.B."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17015832"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.0607335103"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "15200",
+        "id": "17015832",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "lastPage": "15205",
+        "publicationDate": "2006",
+        "title": "Evolution of sensory complexity recorded in a myxobacterial genome.",
+        "volume": "103"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "ABF91911.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000002402",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000002402",
+              "source": "Proteomes"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "DK1622"
+        }
+      ],
+      "referenceNumber": 1,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Chang Y.W.",
+          "Rettberg L.A.",
+          "Ortega D.R.",
+          "Jensen G.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "28487352"
+          },
+          {
+            "database": "DOI",
+            "id": "10.15252/embr.201744072"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "1090",
+        "id": "28487352",
+        "journal": "EMBO Rep.",
+        "lastPage": "1099",
+        "publicationDate": "2017",
+        "title": "<i>In vivo</i> structures of an intact type VI secretion system revealed by electron cryotomography.",
+        "volume": "18"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5URW",
+          "source": "PDB"
+        }
+      ],
+      "referenceNumber": 2,
+      "referencePositions": [
+        "STRUCTURE BY ELECTRON MICROSCOPY (24.00 ANGSTROMS)"
+      ]
+    }
+  ],
+  "sequence": {
+    "crc64": "C7E3224CE001242B",
+    "length": 163,
+    "md5": "E3A767174FA0E38846C3C2A7467E7E06",
+    "molWeight": 18045,
+    "value": "MAESVHLYLKANGSDIKGDSTQTSLGRADSIECVAYSQKVFTAREAGSGLATGRRQYEGIEITKRIDKSSPLLMKALCENQVIDATFKFFRPNPTGDGTTEQFYTVSIKKARINAIQQTVPNSFVPASTNLPPMETLQLVFHTINWTITQGGVTHEDTWDTQR"
+  },
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "CP000113",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ABF91911.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5URW",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "24.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "11/12/13/14/15/16/21/22/23/24/25/26/31/32/33/34/35/36=1-163"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5URW",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q1D303",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-8601",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q1D303",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "246197.MXAN_4809",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblBacteria",
+      "id": "ABF91911",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ABF91911"
+        },
+        {
+          "key": "GeneId",
+          "value": "MXAN_4809"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "41362108",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "mxa:MXAN_4809",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "COG3157",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Bacteria"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_116190_1_0_7",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "119701at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002402",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.30.110.20",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Hcp1-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036624",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Hcp1-lik_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR008514",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_Hcp"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR052947",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_Hcp1_domain"
+        }
+      ]
+    },
+    {
+      "database": "NCBIfam",
+      "id": "TIGR03344",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "VI_effect_Hcp1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR34319:SF7",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "HNH ENDONUCLEASE DOMAIN-CONTAINING PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR34319",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "MAJOR EXPORTED PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF05638",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_HCP"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF141452",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Hcp1-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "uniProtkbId": "Q1D303_MYXXD"
+}

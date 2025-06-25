@@ -1,0 +1,391 @@
+{
+  "annotationScore": 1.0,
+  "entryAudit": {
+    "entryVersion": 31,
+    "firstPublicDate": "2014-03-19",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2014-03-19",
+    "sequenceVersion": 1
+  },
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "extraAttributes": {
+    "uniParcId": "UPI000247FC7A"
+  },
+  "genes": [
+    {
+      "orfNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "AHF90519.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "OPIT5_10225"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "7BOB",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0002",
+      "name": "3D-structure"
+    },
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000003813",
+          "source": "Proteomes"
+        }
+      ],
+      "id": "KW-1185",
+      "name": "Reference proteome"
+    }
+  ],
+  "organism": {
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "AHF90519.1",
+        "source": "EMBL"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "UP000003813",
+        "source": "Proteomes"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Verrucomicrobiota",
+      "Opitutia",
+      "Opitutales",
+      "Opitutaceae"
+    ],
+    "scientificName": "Opitutaceae bacterium TAV5",
+    "taxonId": 794903
+  },
+  "primaryAccession": "W0J1H8",
+  "proteinDescription": {
+    "submissionNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "AHF90519.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "Endo-beta-mannanase"
+        }
+      }
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "references": [
+    {
+      "citation": {
+        "authors": [
+          "Kotak M.",
+          "Isanapong J.",
+          "Goodwin L.",
+          "Bruce D.",
+          "Chen A.",
+          "Han C.S.",
+          "Huntemann M.",
+          "Ivanova N.",
+          "Land M.L.",
+          "Nolan M.",
+          "Pati A.",
+          "Woyke T.",
+          "Rodrigues J.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "25744998"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "0",
+        "id": "25744998",
+        "journal": "Genome Announc.",
+        "lastPage": "0",
+        "publicationDate": "2015",
+        "title": "Complete Genome Sequence of the Opitutaceae Bacterium Strain TAV5, a Potential Facultative Methylotroph of the Wood-Feeding Termite Reticulitermes flavipes.",
+        "volume": "3"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "AHF90519.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000003813",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "AHF90519.1",
+              "source": "EMBL"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "TAV5"
+        }
+      ],
+      "referenceNumber": 1,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Kalyani D.C.",
+          "Reichenbach T.",
+          "Keskitalo M.M.",
+          "Conrad J.",
+          "Aspeborg H.",
+          "Divne C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "34195602"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.yjsbx.2021.100048"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "100048",
+        "id": "34195602",
+        "journal": "J. Struct. Biol. X",
+        "lastPage": "100048",
+        "publicationDate": "2021",
+        "title": "Crystal structure of a homotrimeric verrucomicrobial <i>exo</i>-<i>beta</i>-1,4-mannosidase active in the hindgut of the wood-feeding termite <i>Reticulitermes flavipes</i>.",
+        "volume": "5"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "7BOB",
+          "source": "PDB"
+        }
+      ],
+      "referenceNumber": 2,
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS)"
+      ]
+    }
+  ],
+  "sequence": {
+    "crc64": "531A9BB671929A20",
+    "length": 594,
+    "md5": "E4540089BE9484C089EE2D77B02AC0B1",
+    "molWeight": 66062,
+    "value": "MTIDSSGYFRDAAGARFIPVGANYWPASCGVEMWQAWPEDEIFSDLDLMASLGFNTVRFFVRWPDFEPRPGEYDATMLSRLLRLLDACGERGLRPQPSLFVGWMSGGIFWPPWKSDTQNLFSDPVMIERGAAYARTITTHLKPFATHLCGIDLGNELDALPDCSAATPAQVHEWCRRMTGAIREVLPEALILSGCDHQQVIADTGWRLGGSSPCYSAGGTPAPRMVPNPAQPGIDVLTMHGYPVPNWHPVQGSGLADPLTRSLLPFYVKCARAFGPVLLQEFGTILTSRAAAPHTDAYLRAILPACREAGANGYLWWCFKDIPAPLHPYIKNNFESELGLVDIEGRVKKGLEYFVEFARAETQRALKVLTACEQLDHSAEDAPTVHLYWPRHYYHRNNHRNPGNEPRETSRRLILAHHLLQSAEEHVGIVRGDQPLPSPSEVERIIITGVFTGLDEIKELHSWVEQGGQLLWHAPDPVNWAQAMSRLVGAEIADYRAATPAITATDEGPYEFTCFLRGMRVRIEPRGAQILMTDNEGSPLVLRHRVGAGCVTSVLADVEASFLSQWPDRQTQEASWSAWYAALLTKDQSEGVAR"
+  },
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "CP007053",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AHF90519.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7BOB",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.20 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C=1-594"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "W0J1H8",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "W0J1H8",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "794903.OPIT5_10225",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "obt:OPIT5_10225",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "COG3934",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Bacteria"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_429428_0_0_0",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "183316at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000003813",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.40.50.880",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.20.20.80",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glycosidases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR029062",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Class_I_gatase-like"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR017853",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glycoside_hydrolase_SF"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51445",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "(Trans)glycosidases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "uniProtkbId": "W0J1H8_9BACT"
+}

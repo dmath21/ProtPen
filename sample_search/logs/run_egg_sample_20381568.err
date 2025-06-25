@@ -1,0 +1,3 @@
+[1;32mFunctional annotation of hits...[0m
+4 28.33450198173523 0.14 q/s (% mem usage: 4.20, % mem avail: 95.76)
+/var/spool/slurmd/job20381568/slurm_script: line 55: syntax error: unexpected end of file

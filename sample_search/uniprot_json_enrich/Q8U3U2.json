@@ -1,0 +1,812 @@
+{
+  "annotationScore": 1.0,
+  "comments": [
+    {
+      "commentType": "SIMILARITY",
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00009809",
+              "source": "ARBA"
+            }
+          ],
+          "value": "Belongs to the glycosyl hydrolase 35 family"
+        }
+      ]
+    }
+  ],
+  "entryAudit": {
+    "entryVersion": 104,
+    "firstPublicDate": "2002-06-01",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2002-06-01",
+    "sequenceVersion": 1
+  },
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "extraAttributes": {
+    "countByCommentType": {
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Binding site": 2,
+      "Domain": 3
+    },
+    "uniParcId": "UPI0000066C27"
+  },
+  "features": [
+    {
+      "description": "Glycoside hydrolase family 42 N-terminal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "id": "PF02449",
+          "source": "Pfam"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 409
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 21
+        }
+      },
+      "type": "Domain"
+    },
+    {
+      "description": "GLMA-like second",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "id": "PF22369",
+          "source": "Pfam"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 590
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 451
+        }
+      },
+      "type": "Domain"
+    },
+    {
+      "description": "GLMA-like C-terminal",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "id": "PF22345",
+          "source": "Pfam"
+        }
+      ],
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 771
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 650
+        }
+      },
+      "type": "Domain"
+    },
+    {
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "6JOW",
+          "source": "PDB"
+        }
+      ],
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:29108"
+        }
+      ],
+      "ligand": {
+        "id": "ChEBI:CHEBI:29108",
+        "name": "Ca(2+)"
+      },
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 351
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 351
+        }
+      },
+      "type": "Binding site"
+    },
+    {
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "6JOW",
+          "source": "PDB"
+        }
+      ],
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:29108"
+        }
+      ],
+      "ligand": {
+        "id": "ChEBI:CHEBI:29108",
+        "name": "Ca(2+)"
+      },
+      "location": {
+        "end": {
+          "modifier": "EXACT",
+          "value": 354
+        },
+        "start": {
+          "modifier": "EXACT",
+          "value": 354
+        }
+      },
+      "type": "Binding site"
+    }
+  ],
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "AAL80487.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "PF0363"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "6JOW",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0002",
+      "name": "3D-structure"
+    },
+    {
+      "category": "Ligand",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "6JOW",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0106",
+      "name": "Calcium"
+    },
+    {
+      "category": "Molecular function",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "ARBA00023295",
+          "source": "ARBA"
+        }
+      ],
+      "id": "KW-0326",
+      "name": "Glycosidase"
+    },
+    {
+      "category": "Molecular function",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "id": "ARBA00022801",
+          "source": "ARBA"
+        }
+      ],
+      "id": "KW-0378",
+      "name": "Hydrolase"
+    },
+    {
+      "category": "Ligand",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "6JOW",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0479",
+      "name": "Metal-binding"
+    },
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000001013",
+          "source": "Proteomes"
+        }
+      ],
+      "id": "KW-1185",
+      "name": "Reference proteome"
+    }
+  ],
+  "organism": {
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "AAL80487.1",
+        "source": "EMBL"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "UP000001013",
+        "source": "Proteomes"
+      }
+    ],
+    "lineage": [
+      "Archaea",
+      "Methanobacteriati",
+      "Methanobacteriota",
+      "Thermococci",
+      "Thermococcales",
+      "Thermococcaceae",
+      "Pyrococcus"
+    ],
+    "scientificName": "Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / JCM 8422 / Vc1)",
+    "taxonId": 186497
+  },
+  "primaryAccession": "Q8U3U2",
+  "proteinDescription": {
+    "submissionNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "AAL80487.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "Beta-galactosidase"
+        }
+      }
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "references": [
+    {
+      "citation": {
+        "authors": [
+          "Maeder D.L.",
+          "Weiss R.B.",
+          "Dunn D.M.",
+          "Cherry J.L.",
+          "Gonzalez J.M.",
+          "DiRuggiero J.",
+          "Robb F.T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10430560"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "1299",
+        "id": "10430560",
+        "journal": "Genetics",
+        "lastPage": "1305",
+        "publicationDate": "1999",
+        "title": "Divergence of the hyperthermophilic archaea Pyrococcus furiosus and P. horikoshii inferred from complete genomic sequences.",
+        "volume": "152"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "AAL80487.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000001013",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000001013",
+              "source": "Proteomes"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "ATCC 43587 / DSM 3638 / JCM 8422 / Vc1"
+        }
+      ],
+      "referenceNumber": 1,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Mine S.",
+          "Watanabe M."
+        ],
+        "citationType": "submission",
+        "id": "CI-C2J878O399CMI",
+        "publicationDate": "MAR-2019",
+        "submissionDatabase": "PDB data bank",
+        "title": "Exo-beta-D-glucosaminidase from Pyrococcus furiosus."
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "6JOW",
+          "source": "PDB"
+        }
+      ],
+      "referenceNumber": 2,
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY (1.75 ANGSTROMS) OF 11-772 IN COMPLEX WITH CA(2+)"
+      ]
+    }
+  ],
+  "sequence": {
+    "crc64": "844A1F375A15BB90",
+    "length": 772,
+    "md5": "C1BA1AE9C2E081815D9CCC7A53FA5978",
+    "molWeight": 90202,
+    "value": "MVKPIFLDGKRIVVYGGTLQYFRVPRNSWERMLKKMKSHGLNTIDTYIAWNWHEPQEGLFDFTGETHPQRDLVGFLDLAQKLGFYVIIRPGPYICGEWKNGGIPEWLINSHPEILAKGPNGTLPRDIYYPPITYLHPTYLEYVMKWYENVFPIIKEYLYSNGGPIINVTIDDEPSYWETIFQAFLTDYNEIVVKENGIWHSWLKENYQLDELEERYGQKFSDYAEIVPPTSFSEPLPKILDWHHFKIWMINEYVRILYEKIKKYVDVPISILDPYLLLAAWKEFYLYVTKHKLDIHLWTEFWYSFYRTFDFKEDRLGHLYYKTGVYRYYINKLKTPPLSIETQTSLANVIEKDEAELLYALLPALGIHNINYYLYVGGENPKGYESHNGATWDVYSPIGLDGRERQHVEPIKWIGEFLKSNMDFIESQLKPKVAFGMYEPYEALSMWGHRPESFEESVNLQEYLFGERGLLTLLAMSNVPFDVIDLELSTVEEMLQYEQIWIYSLDFMSREVQEKLARYVEEGGNLVILPTLPSLDENMKPYTKLRDFLGIEVEKAKARDNMRLIPYISVDAEEIDRMVVRNVVREVKGGKAIAWVGDKVVGVMVRKGKGSAVVLGFRLQYYSSYHDLHRKFVDKILQLQGIERDFEVSNRDIIVIPRGNYLVVVNPRDDKVTGKVRYRGVEFNVELNKRGVLYIPINVEINGIKVLYATATPVGRGEGTIRFRNHLANVTEIAINGKIKEVSGGYILQEKSSGEKNIYVIKHESETFEIRV"
+  },
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AE009950",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAL80487.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "6JOW",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.75 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D=11-772"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q8U3U2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q8U3U2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "186497.PF0363",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CAZy",
+      "id": "GH35",
+      "properties": [
+        {
+          "key": "FamilyName",
+          "value": "Glycoside Hydrolase Family 35"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "186497-PF0363",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "pfu:PF0363",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|186497.12.peg.377",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "arCOG05856",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Archaea"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_395770_0_0_2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q8U3U2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000001013",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009341",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:beta-galactosidase complex"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004565",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:beta-galactosidase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0046872",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:metal ion binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005975",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:carbohydrate metabolic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd03143",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "A4_beta-galactosidase_middle_domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.40.50.880",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.20.20.80",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glycosidases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR029062",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Class_I_gatase-like"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR053516",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GLMA"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR054747",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GLMA-like_C"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR054746",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GLMA-like_second"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR013529",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glyco_hydro_42_N"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001944",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glycoside_Hdrlase_35"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR017853",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glycoside_hydrolase_SF"
+        }
+      ]
+    },
+    {
+      "database": "NCBIfam",
+      "id": "NF041127",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "exo_beta_glucsam"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23421",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BETA-GALACTOSIDASE RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF22369",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GLMA_2nd"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF22345",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GLMA_C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF02449",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Glyco_hydro_42"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00742",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "GLHYDRLASE35"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF51445",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "(Trans)glycosidases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF52317",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Class I glutamine amidotransferase-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "uniProtkbId": "Q8U3U2_PYRFU"
+}

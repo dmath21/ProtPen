@@ -1,0 +1,1112 @@
+{
+  "annotationScore": 1.0,
+  "entryAudit": {
+    "entryVersion": 142,
+    "firstPublicDate": "1997-02-01",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "1997-02-01",
+    "sequenceVersion": 1
+  },
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "extraAttributes": {
+    "uniParcId": "UPI00000D40CC"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "AAB35964.1",
+            "source": "EMBL"
+          }
+        ],
+        "value": "hcp"
+      },
+      "orfNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TBM43364.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "EYB64_08015"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TBM42447.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "EYB64_09885"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TQO71154.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "FLM12_00410"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TQO61004.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "FLM12_14460"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TXY92558.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "FXE67_06865"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "MBS7672104.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "KIN13_01400"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "MBS7673577.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "KIN13_09075"
+        }
+      ],
+      "synonyms": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "MBS7672104.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "hcp-2"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "CAA59143.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "hcpA"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "category": "Technical term",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5MXN",
+          "source": "PDB"
+        },
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5OJQ",
+          "source": "PDB"
+        }
+      ],
+      "id": "KW-0002",
+      "name": "3D-structure"
+    }
+  ],
+  "organism": {
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "id": "AAB35964.1",
+        "source": "EMBL"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Pseudomonadota",
+      "Gammaproteobacteria",
+      "Vibrionales",
+      "Vibrionaceae",
+      "Vibrio"
+    ],
+    "scientificName": "Vibrio cholerae",
+    "taxonId": 666
+  },
+  "primaryAccession": "P72350",
+  "proteinDescription": {
+    "submissionNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "CAA59143.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "Haemolysin co-regulated protein"
+        }
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "AAB35964.1",
+              "source": "EMBL"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TBM42447.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "Hcp"
+        }
+      },
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "MBS7672104.1",
+              "source": "EMBL"
+            }
+          ],
+          "value": "Type VI secretion system effector Hcp-2"
+        }
+      }
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "references": [
+    {
+      "citation": {
+        "authors": [
+          "Manning P."
+        ],
+        "citationType": "submission",
+        "id": "CI-EBT3I41HNBMT9",
+        "publicationDate": "FEB-1995",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "CAA59143.1",
+          "source": "EMBL"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "CAA59143.1",
+              "source": "EMBL"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "017"
+        }
+      ],
+      "referenceNumber": 1,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Williams S.G.",
+          "Varcoe L.T.",
+          "Attridge S.R.",
+          "Manning P.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8557353"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "283",
+        "id": "8557353",
+        "journal": "Infect. Immun.",
+        "lastPage": "289",
+        "publicationDate": "1996",
+        "title": "Vibrio cholerae Hcp, a secreted protein coregulated with HlyA.",
+        "volume": "64"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "AAB35964.1",
+          "source": "EMBL"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "CAA59143.1",
+              "source": "EMBL"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "017"
+        }
+      ],
+      "referenceNumber": 2,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Wang J.",
+          "Brackmann M.",
+          "Castano-Diez D.",
+          "Kudryashev M.",
+          "Goldie K.N.",
+          "Maier T.",
+          "Stahlberg H.",
+          "Basler M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "28947741"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/s41564-017-0020-7"
+          }
+        ],
+        "citationType": "journal article",
+        "firstPage": "1507",
+        "id": "28947741",
+        "journal": "Nat. Microbiol.",
+        "lastPage": "1512",
+        "publicationDate": "2017",
+        "title": "Cryo-EM structure of the extended type VI secretion system sheath-tube complex.",
+        "volume": "2"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5MXN",
+          "source": "PDB"
+        },
+        {
+          "evidenceCode": "ECO:0007829",
+          "id": "5OJQ",
+          "source": "PDB"
+        }
+      ],
+      "referenceNumber": 3,
+      "referencePositions": [
+        "STRUCTURE BY ELECTRON MICROSCOPY (3.70 ANGSTROMS) OF 2-171"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Verma J.",
+          "Bag S.",
+          "Saha B.",
+          "Kumar P.",
+          "Ghosh T.S.",
+          "Dayal M.",
+          "Senapati T.",
+          "Mehra S.",
+          "Dey P.",
+          "Desigamani A.",
+          "Kumar D.",
+          "Rana P.",
+          "Kumar B.",
+          "Maiti T.K.",
+          "Sharma N.C.",
+          "Bhadra R.K.",
+          "Mutreja A.",
+          "Nair G.B.",
+          "Ramamurthy T.",
+          "Das B."
+        ],
+        "citationType": "submission",
+        "id": "CI-BG5LOMP9ALDQ8",
+        "publicationDate": "FEB-2019",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases",
+        "title": "Genomic plasticity associated with the antimicrobial resistance in Vibrio cholerae."
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "TBM42447.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000294145",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TBM42447.1",
+              "source": "EMBL"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000294145",
+              "source": "Proteomes"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "IDH06781"
+        }
+      ],
+      "referenceNumber": 4,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Zhiqiu Y.",
+          "Bin L.",
+          "Lingyan J."
+        ],
+        "citationType": "submission",
+        "id": "CI-CHEG5B7TR4SVE",
+        "publicationDate": "JUN-2019",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases",
+        "title": "Vibrio cholerae phylogeny based on whole-genome sequencing reveals genetic diversity and population strucutre."
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "TXY92558.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000323583",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TXY92558.1",
+              "source": "EMBL"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000323583",
+              "source": "Proteomes"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "N2768"
+        }
+      ],
+      "referenceNumber": 5,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Lepuschitz S.",
+          "Baron S.",
+          "Larvor E.",
+          "Granier S.",
+          "Pretzer C.",
+          "Mach R.L.",
+          "Farnleitner A.H.",
+          "Ruppitsch W.",
+          "Pleininger S.",
+          "Indra A.",
+          "Kirschner A.K.T."
+        ],
+        "citationType": "submission",
+        "id": "CI-C0QMTMKROTK8R",
+        "publicationDate": "JUL-2019",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases",
+        "title": "Phenotypic and genotypic antimicrobial resistance traits of Vibrio cholerae non-O1/non-O139 isolated from a large Austrian lake frequently associated with cases of infection."
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "TQO61004.1",
+          "source": "EMBL"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "UP000315424",
+          "source": "Proteomes"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "TQO61004.1",
+              "source": "EMBL"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000315424",
+              "source": "Proteomes"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "920006-15"
+        }
+      ],
+      "referenceNumber": 6,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Stine C."
+        ],
+        "citationType": "submission",
+        "id": "CI-AJI2EMOQKE8UD",
+        "publicationDate": "MAY-2021",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "MBS7672104.1",
+          "source": "EMBL"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "MBS7672104.1",
+              "source": "EMBL"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "TDS0091212"
+        }
+      ],
+      "referenceNumber": 7,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE"
+      ]
+    },
+    {
+      "citation": {
+        "authors": [
+          "Debes A.K.",
+          "Mohammed A.",
+          "Maseke I.",
+          "Almeida M.",
+          "Li S.",
+          "Matimba H.",
+          "Joachim A.",
+          "Mizinduko M.",
+          "Nyanga S.",
+          "Kelly M.",
+          "Kachwamba Y.",
+          "Schaffer A.M.",
+          "Nyanga A.S.",
+          "Mghamba J.",
+          "Mosha F.S.",
+          "Sack D.A.",
+          "Stine O.C."
+        ],
+        "citationType": "submission",
+        "id": "CI-8JNE3T26339IT",
+        "publicationDate": "AUG-2023",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases",
+        "title": "Vibrio cholerae Outbreaks in Tanzania Exemplify Founder Flush: Simultaneous Increases in Population Size and Genetic Diversity."
+      },
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "id": "MBS7672104.1",
+          "source": "EMBL"
+        }
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "MBS7672104.1",
+              "source": "EMBL"
+            }
+          ],
+          "type": "STRAIN",
+          "value": "TDS0091212"
+        }
+      ],
+      "referenceNumber": 8,
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE"
+      ]
+    }
+  ],
+  "secondaryAccessions": [
+    "Q7DCS7"
+  ],
+  "sequence": {
+    "crc64": "4B7202147C2C465D",
+    "length": 172,
+    "md5": "931D9ECF96E5EB22F7C8CB4F74A8419C",
+    "molWeight": 19059,
+    "value": "MPTPCYISIEGQTQGLITAGACTADSIGDSFVEGHEDEMLVQQFDHVVTVPTDPQSGQPSGQRVHKPFKFTVALNKAVPLLYNALSSGEKLKTVELKWYRTSIEGKQENFFTTKLENASIVDIHCEMPHCQDPAKSDFTQNVTVSLSYRKITWDHVNAGTSGSDDWRKPIEA"
+  },
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "S81006",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAB35964.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "X84650",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA59143.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "JAHBND010000050",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "MBS7672104.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "JAHBND010000443",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "MBS7673577.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "SISP01000014",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "TBM42447.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "SISP01000010",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "TBM43364.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "VIOJ01000055",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "TQO61004.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "VIOJ01000001",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "TQO71154.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "VSGZ01000032",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "TXY92558.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "T10891",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T10891"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_001142947.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NZ_WYCO01000050.1"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5MXN",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "3.70 A"
+        },
+        {
+          "key": "Chains",
+          "value": "1/2/3/4/5/6=2-171"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5OJQ",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "3.70 A"
+        },
+        {
+          "key": "Chains",
+          "value": "1/2/3/4/5/6/L/M/N/O/P/Q/R/S/T/U/V/W=2-171"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5MXN",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "5OJQ",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-3566",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P72350",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "2612496",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "88784510",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "vcq:EN18_03855",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "vcq:EN18_10295",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "vcx:VAA049_1881",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "vcz:VAB027_1005",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "vcz:VAB027_2088",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|666.1966.peg.1273",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "WEHTTAG",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000294145",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unassembled WGS sequence"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000315424",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unassembled WGS sequence"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000323583",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unassembled WGS sequence"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP001196338",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unassembled WGS sequence"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.30.110.20",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Hcp1-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036624",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Hcp1-lik_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR008514",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_Hcp"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR052947",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_Hcp1_domain"
+        }
+      ]
+    },
+    {
+      "database": "NCBIfam",
+      "id": "TIGR03344",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "VI_effect_Hcp1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR34319",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "MAJOR EXPORTED PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR34319:SF6",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "MAJOR EXPORTED PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF05638",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "T6SS_HCP"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF141452",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Hcp1-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "uniProtkbId": "P72350_VIBCL"
+}

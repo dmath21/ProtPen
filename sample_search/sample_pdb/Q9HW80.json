@@ -1,0 +1,464 @@
+{
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "primaryAccession": "Q9HW80",
+  "uniProtkbId": "Q9HW80_PSEAE",
+  "entryAudit": {
+    "firstPublicDate": "2001-03-01",
+    "lastAnnotationUpdateDate": "2025-04-02",
+    "lastSequenceUpdateDate": "2001-03-01",
+    "entryVersion": 95,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 1.0,
+  "organism": {
+    "scientificName": "Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)",
+    "taxonId": 208964,
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "EMBL",
+        "id": "AAG07709.1"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "Proteomes",
+        "id": "UP000002438"
+      }
+    ],
+    "lineage": [
+      "Bacteria",
+      "Pseudomonadati",
+      "Pseudomonadota",
+      "Gammaproteobacteria",
+      "Pseudomonadales",
+      "Pseudomonadaceae",
+      "Pseudomonas"
+    ]
+  },
+  "proteinExistence": "4: Predicted",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000259",
+            "source": "Pfam",
+            "id": "PF14258"
+          }
+        ],
+        "value": "DUF4350 domain-containing protein"
+      }
+    }
+  },
+  "genes": [
+    {
+      "orderedLocusNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "EMBL",
+              "id": "AAG07709.1"
+            }
+          ],
+          "value": "PA4321"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 43,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 270,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "DUF4350",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "source": "Pfam",
+          "id": "PF14258"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 143,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 188,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Compositional bias",
+      "location": {
+        "start": {
+          "value": 152,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 162,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Acidic residues",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Compositional bias",
+      "location": {
+        "start": {
+          "value": 171,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 183,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Acidic residues",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ],
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "10984043",
+        "citationType": "journal article",
+        "authors": [
+          "Stover C.K.",
+          "Pham X.Q.",
+          "Erwin A.L.",
+          "Mizoguchi S.D.",
+          "Warrener P.",
+          "Hickey M.J.",
+          "Brinkman F.S.",
+          "Hufnagle W.O.",
+          "Kowalik D.J.",
+          "Lagrou M.",
+          "Garber R.L.",
+          "Goltry L.",
+          "Tolentino E.",
+          "Westbrock-Wadman S.",
+          "Yuan Y.",
+          "Brody L.L.",
+          "Coulter S.N.",
+          "Folger K.R.",
+          "Kas A.",
+          "Larbig K.",
+          "Lim R.",
+          "Smith K.",
+          "Spencer D.",
+          "Wong G.K.",
+          "Wu Z.",
+          "Paulsen I.T.",
+          "Reizer J.",
+          "Saier M.H.",
+          "Hancock R.E.",
+          "Lory S.",
+          "Olson M.V."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10984043"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/35023079"
+          }
+        ],
+        "title": "Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic pathogen.",
+        "publicationDate": "2000",
+        "journal": "Nature",
+        "firstPage": "959",
+        "lastPage": "964",
+        "volume": "406"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Proteomes",
+              "id": "UP000002438"
+            }
+          ],
+          "value": "ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1",
+          "type": "STRAIN"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "EMBL",
+          "id": "AAG07709.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002438"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AE004091",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAG07709.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "B83106",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "B83106"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_253011.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NC_002516.2"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "WP_003112781.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NZ_QZGE01000004.1"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q9HW80",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "208964.PA4321",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "208964-PA4321",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "881535",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "pae:PA4321",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PATRIC",
+      "id": "fig|208964.12.peg.4526",
+      "properties": [
+        {
+          "key": "GeneDesignation",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PseudoCAP",
+      "id": "PA4321",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_037741_0_0_6",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q9HW80",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "6638317at2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioCyc",
+      "id": "PAER208964:G1FZ6-4406-MONOMER",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002438",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR025646",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DUF4350"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF14258",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DUF4350"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MMSRRARFLLLAVLLLLAGLLAIFLASRLQPYTETIDLGPSPEARRNPYLAAELFLRKQGVTVSRADGLEVLKELPPSGHTLLLLGSRSGMTPGQARRLLQWSEQGGHLVLIAERLWDEDEKKSGDLLLDSLDIRQYLTEDFDDSQDRASEETADADADEGSVDDHATEAPPEDTAGEEEEPADSVPDYSALTRLYLENERSPAYIGFDPDYHLYDPQNHAYAWANSGDATHLLQMQHGKGLVTVLTDAWIWQNRNIEQYDNAWLLWYLTQDNQVTLLYRAERDSLATLLARHFPEALAAALLLLLAGLWRAGLRQGPLQPVASRSRRQLEEHLRAGADFLLRQRGHVALLHGLQRDILRRARRRHPGFEQLGVAEQWQILGRMTRLPPSAISQAMRPYPAQRLSAADFTRQVAHLQSLRNAL",
+    "length": 423,
+    "molWeight": 47704,
+    "crc64": "FC56350925157468",
+    "md5": "8A00D04BE39D02CC6DF8C63D1CD90939"
+  },
+  "extraAttributes": {
+    "countByFeatureType": {
+      "Domain": 1,
+      "Region": 1,
+      "Compositional bias": 2
+    },
+    "uniParcId": "UPI00000C5CB9"
+  }
+}
